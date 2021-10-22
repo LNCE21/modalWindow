@@ -1,4 +1,4 @@
-<h1> Modal Window </h1>
+<h1 align="center"> Modal Window </h1>
 <p align="center"> This is a repo made to store a modal window solution. Is a pop up window that you can close either with the esc button, the x or by clicking on the background </p>
 <p align="center"> This project is to practice JavaScript manipulation of the DOM, CSS styles, Event Listeners, Refactoring the code, Adding and removing classes etc</p>
 <br>
