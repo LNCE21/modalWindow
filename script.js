@@ -31,9 +31,7 @@ overlay.addEventListener("click", closeModalWindow);
 
 //Listening for events everywhere, no matter where it happens on the page, they will always trigger the event handler
 document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        if (!modal.classList.contains("hidden")) {
-            closeModalWindow();
-        }
+    if (event.key === "Escape" && !modal.classList.contains("hidden")) {
+        closeModalWindow();
     }
 })
