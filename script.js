@@ -24,8 +24,16 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
     btnsOpenModal[i].addEventListener("click", openModalWindow);
 }
 
-
 //Adding functionality to the close button of the modal window, we are not calling the function closeModalWindow, we are only excuting it:
 btnCloseModal.addEventListener("click", closeModalWindow);
 //Close the modal window when clicking on overlay background
 overlay.addEventListener("click", closeModalWindow);
+
+//Listening for events everywhere, no matter where it happens on the page, they will always trigger the event handler
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        if (!modal.classList.contains("hidden")) {
+            closeModalWindow();
+        }
+    }
+})
