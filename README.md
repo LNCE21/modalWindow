@@ -7,5 +7,5 @@ Click the demo preview and it will take you to the modal window site!
 <br>
 <br>
 <br>
-<a href="https://lnce21.github.io/modalWindow/" target="_blank"> <img src="img/modalWindowGif.gif" width="796" height="833" alt="Modal Window Demo"/></a>
+<a href="https://lnce21.github.io/modalWindow/" target="_blank"> <img src="img/modalWindowGif.gif" alt="Modal Window Demo"/></a>
 </>
